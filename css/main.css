@@ -402,8 +402,8 @@ footer {
 .informationlist li,
 .shopimg img,
 .shopimg p,
-#firsttaille,
-#secondtaille {
+.firsttaille,
+.secondtaille {
   cursor: pointer;
 }
 
@@ -465,18 +465,18 @@ footer {
   margin-top: 15px;
 }
 
-#titleshop,
-#priceshop {
+.titleshop,
+.priceshop {
   color: #7b2934;
   display: inline-block;
 }
 
-#titleshop {
+.titleshop {
   text-align: right;
   border-right: 1px solid #e5e5e5;
 }
 
-#priceshop,
+.priceshop,
 .alltextimgbottommiddle {
   text-align: left;
 }
@@ -489,13 +489,13 @@ footer {
   box-shadow: 0 4px 3px -2px black;
 }
 
-#colorshop {
+.colorshop {
   width: 100%;
 }
 
-#colorshop,
-#titleshop,
-#priceshop,
+.colorshop,
+.titleshop,
+.priceshop,
 footer,
 .buttonfirstshop {
   text-align: center;
@@ -560,8 +560,8 @@ footer h5 {
 @media screen and (min-width: 280px) and (max-width: 767px) {
 
     .panierimg p,
-    #firsttaille,
-    #secondtaille,
+    .firsttaille,
+    .secondtaille,
     .shopimg,
     .listforheader,
     .listtopmiddle,
@@ -620,8 +620,8 @@ footer h5 {
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
 
-    #firsttaille,
-    #secondtaille,
+    .firsttaille,
+    .secondtaille,
     .categoriesimg,
     .rightposforpc,
     h5 {
@@ -703,8 +703,8 @@ footer h5 {
       width: 24%;
     }
 
-    #titleshop,
-    #priceshop {
+    .titleshop,
+    .priceshop {
       width: 48%;
     }
 
@@ -846,8 +846,8 @@ footer h5 {
     width: 100%;
   }
 
-  #titleshop,
-  #priceshop {
+  .titleshop,
+  .priceshop {
     width: 48%;
   }
 
@@ -880,8 +880,8 @@ footer h5 {
     display: inline-block;
   }
 
-  #firsttaille,
-  #secondtaille {
+  .firsttaille,
+  .secondtaille {
     list-style-type: none;
     width: 18px;
     color: white;
@@ -893,12 +893,12 @@ footer h5 {
     font-size: 10px;
   }
 
-  #secondtaille {
+  .secondtaille {
     margin-left: -30px;
   }
 
-  #firsttaille:hover,
-  #secondtaille:hover {
+  .firsttaille:hover,
+  .secondtaille:hover {
     width: 22px;
   }
 
