@@ -344,6 +344,19 @@ footer {
   display: block;
 }
 
+.listforheader li {
+  display: inline;
+  padding: 0px 5px 0px 5px;
+  font-size: 12px;
+  text-align: left;
+  color: #5d4e71;
+}
+
+.listforheader a {
+  text-decoration: none;
+  color: #5d4e71;
+}
+
 .logoimg {
   width: 46%;
 }
