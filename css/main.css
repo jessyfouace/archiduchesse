@@ -285,3 +285,460 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+/* ##################### START OF CODE ############# */
+/* ##################### START OF CODE ############# */
+/* ##################### START OF CODE ############# */
+/* ##################### START OF CODE ############# */
+/* ##################### START OF CODE ############# */
+/* ##################### START OF CODE ############# */
+
+body {
+  font-family: Georgia, Times, serif;
+}
+
+* {
+  margin: 0;
+}
+
+footer {
+  margin: 0;
+  position: relative;
+  bottom: 0;
+  background-color: #f5f5f5;
+}
+
+/* ##################### HEADER ############# */
+/* ##################### HEADER ############# */
+/* ##################### HEADER ############# */
+/* ##################### HEADER ############# */
+/* ##################### HEADER ############# */
+/* ##################### HEADER ############# */
+
+.headerfixed {
+  position: fixed;
+  background-color: #f5f5f5;
+  border: none;
+  width: 100%;
+  top: 0;
+}
+
+.logoimg img,
+.topmiddle,
+.firstlineshop,
+.secondlineshop,
+.thirdlineshop,
+.alltextimgbottommiddle {
+  margin: auto;
+}
+
+.categoriesimg,
+.logoimg,
+.panierimg {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+}
+
+.logoimg img {
+  display: block;
+}
+
+.logoimg {
+  width: 46%;
+}
+
+.panierimg {
+  text-align: right;
+}
+
+.listforheader li {
+  display: inline;
+  padding: 0px 5px 0px 5px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.listforheader li:hover {
+  background-color: #e7e7e7;
+}
+
+/* ##################### ALL POINTER ############# */
+/* ##################### ALL POINTER ############# */
+/* ##################### ALL POINTER ############# */
+/* ##################### ALL POINTER ############# */
+/* ##################### ALL POINTER ############# */
+/* ##################### ALL POINTER ############# */
+
+.publicityforsales p,
+.categoriesimg img,
+.logoimg img,
+.panierimg img,
+.publicityforsales img,
+.soldeete,
+.viewmore,
+.allfirstshop,
+.cut,
+.listforheader li,
+.listtopmiddle li,
+.archiduchesselist li,
+.collectionlist li,
+.informationlist li {
+  cursor: pointer;
+}
+
+/* ##################### PUBLICITY ############# */
+/* ##################### PUBLICITY ############# */
+/* ##################### PUBLICITY ############# */
+/* ##################### PUBLICITY ############# */
+/* ##################### PUBLICITY ############# */
+/* ##################### PUBLICITY ############# */
+
+.topmiddle,
+.firstlineshop,
+.secondlineshop,
+.thirdlineshop,
+.alltextimgbottommiddle {
+  width: 90%;
+}
+
+.soldeete,
+.viewmore {
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.soldeete {
+  background-color: #ececec;
+}
+
+.viewmore {
+  background-color: #444444;
+  color: white;
+}
+
+.publicityforsales p {
+  font-size: 18px;
+}
+
+.publicityforsales p:hover {
+  color: #cccccc;
+}
+
+.soldeete {
+  margin-top: 10px;
+}
+
+/* ##################### START MIDDLE SHOP ############# */
+/* ##################### START MIDDLE SHOP ############# */
+/* ##################### START MIDDLE SHOP ############# */
+/* ##################### START MIDDLE SHOP ############# */
+/* ##################### START MIDDLE SHOP ############# */
+/* ##################### START MIDDLE SHOP ############# */
+
+.firstshop,
+.secondshop,
+.thirdshop {
+  width: 49%;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+#titleshop,
+#priceshop {
+  color: #7b2934;
+  display: inline-block;
+}
+
+#titleshop {
+  text-align: right;
+  border-right: 1px solid #e5e5e5;
+}
+
+#priceshop,
+.alltextimgbottommiddle {
+  text-align: left;
+}
+
+.allfirstshop,
+.allsecondshop,
+.allthirdshop {
+  -webkit-box-shadow: 0 6px 4px -4px black;
+  -moz-box-shadow: 0 6px 4px -4px black;
+  box-shadow: 0 4px 3px -2px black;
+}
+
+#colorshop {
+  width: 100%;
+}
+
+#colorshop,
+#titleshop,
+#priceshop,
+footer,
+.buttonfirstshop {
+  text-align: center;
+}
+
+.allfirstshop,
+.buttonfirstshop {
+    display: block;
+}
+
+/* ##################### START MIDDLE BOT ############# */
+/* ##################### START MIDDLE BOT ############# */
+/* ##################### START MIDDLE BOT ############# */
+/* ##################### START MIDDLE BOT ############# */
+/* ##################### START MIDDLE BOT ############# */
+/* ##################### START MIDDLE BOT ############# */
+
+.firsttext h1 {
+  font-size: 30px;
+}
+
+.alltextimgbottommiddle h2 {
+  font-size: 24px;
+}
+
+.alltextimgbottommiddle p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.alltextimgbottommiddle, {
+  color: #444444;
+}
+
+/* ##################### START FOOTER ############# */
+/* ##################### START FOOTER ############# */
+/* ##################### START FOOTER ############# */
+/* ##################### START FOOTER ############# */
+/* ##################### START FOOTER ############# */
+/* ##################### START FOOTER ############# */
+
+footer {
+  color: #77777a;
+}
+
+footer h4,
+footer h5 {
+  color: #444444;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.followus input[type="text"] {
+  background-color: inherit;
+  border: none;
+  border-radius: 3px;
+  border: 1px solid #e7e7e7;
+  width: 90%;
+  padding: 5px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 767px) {
+
+    .panierimg p,
+    .shopimg,
+    .listforheader,
+    .listtopmiddle,
+    .archiduchesselist,
+    .collectionlist,
+    .informationlist {
+      display: none;
+    }
+
+    .allfirstshop p,
+    .allsecondshop p,
+    .allthirdshop p {
+      font-size: 10px;
+      width: 47%;
+    }
+
+    .cut {
+      margin-top: -11px;
+      border: none;
+      border-radius: 0px 5px 5px 5px;
+      color: white;
+      background-color: #9f2134;
+      padding: 0px 5px 5px 5px;
+    }
+
+    .homefabricate,
+    .returnpossible,
+    .securisedpayment,
+    .livraison {
+      width: 48%;
+      display: inline-block;
+      text-align: center;
+      color: #7f778c;
+    }
+
+    .securisedpayment {
+      vertical-align: top;
+    }
+
+}
+
+/* ################## FOR TABLETTE ############### */
+/* ################## FOR TABLETTE ############### */
+/* ################## FOR TABLETTE ############### */
+/* ################## FOR TABLETTE ############### */
+/* ################## FOR TABLETTE ############### */
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+
+    .categoriesimg,
+    h5 {
+      display: none;
+    }
+
+/* ################## HEADER ############### */
+/* ################## HEADER ############### */
+/* ################## HEADER ############### */
+/* ################## HEADER ############### */
+/* ################## HEADER ############### */
+
+    .logoimg {
+      width: 20%;
+      display: block;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+
+    .panierimg,
+    .shopimg {
+      margin-top: -60px;
+      font-size: 13px;
+      text-align: center;
+      width: 7%;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .panierimg img,
+    .shopimg img {
+      width: 40px;
+    }
+
+    .panierimg {
+      margin-left: 80%;
+    }
+
+    .listtopmiddle {
+      border-bottom: 1px solid #e5e5e5;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+    }
+
+    .listtopmiddle li {
+      display: inline;
+      color: #70818c;
+    }
+
+    /* ################## TOP MIDDLE ############### */
+
+    .publicityforsales img {
+      width: 100%;
+      display: block;
+    }
+
+    .publicityforsales {
+      display: inline-block;
+      width: 100%;
+    }
+
+    .topmiddle {
+      display: inline-block;
+      margin-left: 10%;
+      width: 38%;
+      vertical-align: top;
+      position: static;
+      margin-top: 120px;
+    }
+
+    .firstlineshop {
+      display: inline-block;
+      width: 48%;
+      margin-top: 155px;
+    }
+
+    .secondshop,
+    .thirdshop {
+      width: 24%;
+    }
+
+    .cut {
+      margin-top: -11px;
+      border: none;
+      border-radius: 0px 5px 5px 5px;
+      color: white;
+      background-color: #9f2134;
+      padding: 0px 5px 5px 5px;
+    }
+
+    .firsttext,
+    .secondtext,
+    .thirdtext,
+    .forthtext {
+      width: 48%;
+      display: inline-block;
+    }
+
+    .firsttext,
+    .secondtext {
+      vertical-align: top;
+      margin-top: 5%;
+    }
+
+    .imgendustries {
+      width: 100%;
+    }
+
+    .homefabricate,
+    .returnpossible,
+    .securisedpayment,
+    .livraison {
+      display: inline-block;
+      text-align: center;
+      width: 24%;
+      vertical-align: top;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+
+    .logoandtext,
+    .archiduchesselist,
+    .collectionlist,
+    .informationlist,
+    .followus {
+      width: 19%;
+      display: inline-block;
+      margin-bottom: 5%;
+    }
+
+    .logoandtext,
+    .archiduchesselist,
+    .collectionlist,
+    .informationlist {
+      vertical-align: top;
+    }
+
+    .logoandtext {
+      margin-top: 1%;
+    }
+
+    .archiduchesselist li,
+    .collectionlist li,
+    .informationlist li {
+      list-style-type: none;
+    }
+
+    .archiduchesselist li:hover,
+    .collectionlist li:hover,
+    .informationlist li:hover {
+      text-decoration: underline;
+    }
+
+}
