@@ -370,12 +370,6 @@ footer {
   padding: 0px 5px 0px 5px;
   font-size: 12px;
   text-align: left;
-  color: #5d4e71;
-}
-
-.listforheader a {
-  text-decoration: none;
-  color: #5d4e71;
 }
 
 .listforheader li:hover {
@@ -393,16 +387,23 @@ footer {
 .categoriesimg img,
 .logoimg img,
 .panierimg img,
+.panierimg p,
 .publicityforsales img,
 .soldeete,
 .viewmore,
 .allfirstshop,
+.allsecondshop,
+.allthirdshop,
 .cut,
 .listforheader li,
 .listtopmiddle li,
 .archiduchesselist li,
 .collectionlist li,
-.informationlist li {
+.informationlist li,
+.shopimg img,
+.shopimg p,
+#firsttaille,
+#secondtaille {
   cursor: pointer;
 }
 
@@ -559,6 +560,8 @@ footer h5 {
 @media screen and (min-width: 280px) and (max-width: 767px) {
 
     .panierimg p,
+    #firsttaille,
+    #secondtaille,
     .shopimg,
     .listforheader,
     .listtopmiddle,
@@ -617,6 +620,8 @@ footer h5 {
 
 @media screen and (min-width: 768px) and (max-width: 1280px) {
 
+    #firsttaille,
+    #secondtaille,
     .categoriesimg,
     .rightposforpc,
     h5 {
@@ -781,6 +786,7 @@ footer h5 {
   .categoriesimg,
   .firstlineshop,
   .secondlineshop,
+  .cut,
   h5 {
     display: none;
   }
@@ -860,21 +866,6 @@ footer h5 {
     display: inline-block;
   }
 
-
-
-
-/*
-  .firstlineshop2 {
-    display: inline-block;
-    width: 48%;
-    margin-top: 155px;
-  }
-
-  .secondlineshop2 {
-    width: 48%;
-    display: inline-block;
-  }
-*/
   .firstshop,
   .secondshop,
   .thirdshop {
@@ -883,6 +874,32 @@ footer h5 {
 
   .thirdshop {
     width: 16%;
+  }
+
+  .buttonfirstshop ul {
+    display: inline-block;
+  }
+
+  #firsttaille,
+  #secondtaille {
+    list-style-type: none;
+    width: 18px;
+    color: white;
+    line-height: 8px;
+    background-color: #9f2134;
+    border-radius: 3px;
+    height: 30px;
+    padding-top: 5px;
+    font-size: 10px;
+  }
+
+  #secondtaille {
+    margin-left: -30px;
+  }
+
+  #firsttaille:hover,
+  #secondtaille:hover {
+    width: 22px;
   }
 
   .cut {
