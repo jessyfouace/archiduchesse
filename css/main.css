@@ -545,8 +545,17 @@ footer h5 {
     .listtopmiddle,
     .archiduchesselist,
     .collectionlist,
-    .informationlist {
+    .informationlist,
+    .rightposforpc {
       display: none;
+    }
+
+    .topmiddle {
+      margin-top: 55px;
+    }
+
+    .imgendustries {
+      margin: 20px 0px 20px 0px;
     }
 
     .allfirstshop p,
@@ -590,6 +599,7 @@ footer h5 {
 @media screen and (min-width: 768px) and (max-width: 1280px) {
 
     .categoriesimg,
+    .rightposforpc,
     h5 {
       display: none;
     }
@@ -669,6 +679,11 @@ footer h5 {
       width: 24%;
     }
 
+    #titleshop,
+    #priceshop {
+      width: 48%;
+    }
+
     .cut {
       margin-top: -11px;
       border: none;
@@ -741,4 +756,191 @@ footer h5 {
       text-decoration: underline;
     }
 
+}
+
+@media screen and (min-width: 1281px) {
+  .categoriesimg,
+  .firstlineshop,
+  .secondlineshop,
+  h5 {
+    display: none;
+  }
+
+/* ################## HEADER ############### */
+/* ################## HEADER ############### */
+/* ################## HEADER ############### */
+/* ################## HEADER ############### */
+/* ################## HEADER ############### */
+
+  .logoimg {
+    width: 20%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .panierimg,
+  .shopimg {
+    margin-top: -60px;
+    font-size: 13px;
+    text-align: center;
+    width: 7%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .panierimg img,
+  .shopimg img {
+    width: 40px;
+  }
+
+  .panierimg {
+    margin-left: 80%;
+  }
+
+  .listtopmiddle {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+
+  .listtopmiddle li {
+    display: inline;
+    color: #70818c;
+  }
+
+  /* ################## TOP MIDDLE ############### */
+
+  .publicityforsales img {
+    width: 80%;
+    display: block;
+  }
+
+  .publicityforsales {
+    display: inline-block;
+    width: 100%;
+  }
+
+  #titleshop,
+  #priceshop {
+    width: 48%;
+  }
+
+  .topmiddle {
+    display: inline-block;
+    margin-left: 10%;
+    width: 38%;
+    vertical-align: top;
+    position: static;
+    margin-top: 120px;
+  }
+
+  .rightposforpc {
+    margin-top: 155px;
+    width: 48%;
+    display: inline-block;
+  }
+
+
+
+
+/*
+  .firstlineshop2 {
+    display: inline-block;
+    width: 48%;
+    margin-top: 155px;
+  }
+
+  .secondlineshop2 {
+    width: 48%;
+    display: inline-block;
+  }
+*/
+  .firstshop,
+  .secondshop,
+  .thirdshop {
+    width: 24%;
+  }
+
+  .thirdshop {
+    width: 16%;
+  }
+
+  .cut {
+    margin-top: -11px;
+    border: none;
+    border-radius: 0px 5px 5px 5px;
+    color: white;
+    background-color: #9f2134;
+    padding: 0px 5px 5px 5px;
+  }
+
+  .firsttext,
+  .secondtext,
+  .thirdtext,
+  .forthtext {
+    width: 23%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5%;
+  }
+
+  .firsttext,
+  .secondtext,
+  .thirdtext {
+    margin-right: 1%;
+  }
+
+  .imgendustries {
+    width: 100%;
+  }
+
+  /* ICON ON BOTTOM MIDDLE */
+
+  .homefabricate,
+  .returnpossible,
+  .securisedpayment,
+  .livraison {
+    display: inline-block;
+    text-align: center;
+    width: 24%;
+    vertical-align: top;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+/* FOOTER */
+
+  .logoandtext,
+  .archiduchesselist,
+  .collectionlist,
+  .informationlist,
+  .followus {
+    width: 19%;
+    display: inline-block;
+    margin-bottom: 5%;
+  }
+
+  .logoandtext,
+  .archiduchesselist,
+  .collectionlist,
+  .informationlist {
+    vertical-align: top;
+  }
+
+  .logoandtext {
+    margin-top: 1%;
+  }
+
+  .archiduchesselist li,
+  .collectionlist li,
+  .informationlist li {
+    list-style-type: none;
+  }
+
+  .archiduchesselist li:hover,
+  .collectionlist li:hover,
+  .informationlist li:hover {
+    text-decoration: underline;
+  }
 }
