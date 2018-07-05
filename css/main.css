@@ -413,7 +413,8 @@ iframe {
 .firstarticles input,
 .categoriesmaketri li,
 .secondarticles input,
-.thirdarticles input {
+.thirdarticles input,
+.listonright li {
   cursor: pointer;
 }
 
@@ -667,6 +668,7 @@ footer h5 {
     .panierimg p,
     .firsttaille,
     .secondtaille,
+    .titleforw3c,
     .shopimg,
     .listforheader,
     .listtopmiddle,
@@ -674,6 +676,7 @@ footer h5 {
     .collectionlist,
     .allcategoriesright,
     .informationlist,
+    .listonright,
     .rightposforpc {
       display: none;
     }
@@ -728,9 +731,10 @@ footer h5 {
 
     .firsttaille,
     .secondtaille,
+    .titleforw3c,
     .categoriesimg,
     .rightposforpc,
-    .allcategoriesright,
+    .listonright,
     h5 {
       display: none;
     }
@@ -927,6 +931,7 @@ footer h5 {
 
 @media screen and (min-width: 1281px) {
   .categoriesimg,
+  .titleforw3c,
   .firstlineshop,
   .secondlineshop,
   .cut,
@@ -1114,9 +1119,8 @@ footer h5 {
   .archiduchesselist li,
   .collectionlist li,
   .categoriesmaketri li,
-  .archivemaketri li,
-  .blogrollmaketri li,
-  .informationlist li {
+  .informationlist li,
+  .listonright li {
     list-style-type: none;
   }
 
@@ -1133,7 +1137,13 @@ footer h5 {
   /* ################## BLOG ############### */
 
   .allarticles {
-    width: 90%;
+    width: 80%;
+    display: inline-block;
+    margin: auto;
+  }
+
+  .articlesforpc {
+    width: 80%;
     display: block;
     margin: auto;
   }
@@ -1163,4 +1173,40 @@ footer h5 {
     display: inline-block;
     margin: 30px 0px 30px 0px;
   }
+
+  .listonright {
+    width: 18%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 175px;
+  }
+
+  .listonright li {
+    font-size: 10px;
+    color: #72554f;
+  }
+
+  .listonright li[class="titlelist"] {
+    font-size: 20px;
+    cursor: default;
+  }
+
+  .listonright li[class="secondtitlelist"] {
+    font-size: 9px;
+    cursor: default;
+    color: #af9fac;
+  }
+
+  .listonright li:hover {
+    text-decoration: underline;
+  }
+
+  .listonright li[class="titlelist"]:hover {
+    text-decoration: none;
+  }
+
+  .listonright li[class="secondtitlelist"]:hover {
+    text-decoration: none;
+  }
+
 }
