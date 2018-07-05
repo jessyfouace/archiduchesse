@@ -405,10 +405,13 @@ iframe {
 .collectionlist li,
 .informationlist li,
 .shopimg img,
+.archivemaketri li,
+.blogrollmaketri li,
 .shopimg p,
 .firsttaille,
 .secondtaille,
 .firstarticles input,
+.categoriesmaketri li,
 .secondarticles input,
 .thirdarticles input {
   cursor: pointer;
@@ -669,6 +672,7 @@ footer h5 {
     .listtopmiddle,
     .archiduchesselist,
     .collectionlist,
+    .allcategoriesright,
     .informationlist,
     .rightposforpc {
       display: none;
@@ -726,6 +730,7 @@ footer h5 {
     .secondtaille,
     .categoriesimg,
     .rightposforpc,
+    .allcategoriesright,
     h5 {
       display: none;
     }
@@ -1108,6 +1113,9 @@ footer h5 {
 
   .archiduchesselist li,
   .collectionlist li,
+  .categoriesmaketri li,
+  .archivemaketri li,
+  .blogrollmaketri li,
   .informationlist li {
     list-style-type: none;
   }
@@ -1125,7 +1133,9 @@ footer h5 {
   /* ################## BLOG ############### */
 
   .allarticles {
-    width: 80%;
+    width: 90%;
+    display: block;
+    margin: auto;
   }
 
   .firstarticles img {
