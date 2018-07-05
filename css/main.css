@@ -404,7 +404,9 @@ footer {
 .shopimg p,
 .firsttaille,
 .secondtaille,
-.firstarticles input {
+.firstarticles input,
+.secondarticles input,
+.thirdarticles input {
   cursor: pointer;
 }
 
@@ -585,18 +587,24 @@ footer h5 {
   margin-top: 60px;
 }
 
-.firstarticles iframe {
-  text-align: center;
+.firstarticles iframe,
+.thirdarticles iframe {
+  display: block;
+  margin: auto;
 }
 
-.firstarticles input {
+.firstarticles input,
+.secondarticles input,
+.thirdarticles input {
   background-color: #e6e6e6;
   border-radius: 3px;
   border: none;
   color:#bfbfbc;
 }
 
-.firstarticles input:hover {
+.firstarticles input:hover,
+.secondarticles input:hover,
+.thirdarticles input:hover {
   color: black;
 }
 
@@ -605,12 +613,40 @@ footer h5 {
   color: #444444;
 }
 
-.allarticles p,
-.allarticles h2 {
-  font-size: 10px;
-  color: #777;
+.firstarticles img {
+  margin: 20px 0px 20px 0px;
 }
 
+.allarticles p,
+.allarticles h2 {
+  font-size: 13px;
+  color: #777;
+  line-height: 1.5em;
+}
+
+.secondarticles,
+.thirdarticles {
+  margin-top: 30px;
+}
+
+.secondarticles p,
+.thirdarticles p,
+.thirdarticles iframe {
+  margin-top: 20px;
+}
+
+.thirdarticles {
+  margin-bottom: 20px;
+}
+
+.allarticles a {
+  text-decoration: none;
+  color: #444444;
+}
+
+.allarticles a:hover {
+  text-decoration: underline;
+}
 
 /* ##################### START PHONE ############# */
 /* ##################### START PHONE ############# */
@@ -842,6 +878,42 @@ footer h5 {
       text-decoration: underline;
     }
 
+    /* ################## BLOG ############### */
+    /* ################## BLOG ############### */
+    /* ################## BLOG ############### */
+    /* ################## BLOG ############### */
+    /* ################## BLOG ############### */
+
+    .allarticles {
+      width: 80%;
+    }
+
+    .firstarticles img {
+      width: 500px;
+      display: block;
+      margin: auto;
+    }
+
+    .firstarticles {
+      margin-top: 125px;
+    }
+
+    .imgright img {
+      width: 80%;
+    }
+
+    .imgright {
+      width: 48%;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .textleftimg {
+      width: 48%;
+      display: inline-block;
+      margin: 30px 0px 30px 0px;
+    }
+
 }
 
 @media screen and (min-width: 1281px) {
@@ -1040,5 +1112,41 @@ footer h5 {
   .collectionlist li:hover,
   .informationlist li:hover {
     text-decoration: underline;
+  }
+
+  /* ################## BLOG ############### */
+  /* ################## BLOG ############### */
+  /* ################## BLOG ############### */
+  /* ################## BLOG ############### */
+  /* ################## BLOG ############### */
+
+  .allarticles {
+    width: 80%;
+  }
+
+  .firstarticles img {
+    width: 500px;
+    display: block;
+    margin: auto;
+  }
+
+  .firstarticles {
+    margin-top: 125px;
+  }
+
+  .imgright img {
+    width: 80%;
+  }
+
+  .imgright {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .textleftimg {
+    width: 48%;
+    display: inline-block;
+    margin: 30px 0px 30px 0px;
   }
 }
