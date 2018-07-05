@@ -403,7 +403,8 @@ footer {
 .shopimg img,
 .shopimg p,
 .firsttaille,
-.secondtaille {
+.secondtaille,
+.firstarticles input {
   cursor: pointer;
 }
 
@@ -556,6 +557,67 @@ footer h5 {
   width: 90%;
   padding: 5px;
 }
+
+.logoandtext a {
+  text-decoration: none;
+  color: #77777a;
+}
+
+.logoandtext a:hover {
+  text-decoration:underline;
+}
+
+/* ##################### START BLOG ############# */
+/* ##################### START ELOG ############# */
+/* ##################### START BLOG ############# */
+/* ##################### START BLOG ############# */
+/* ##################### START BLOG ############# */
+/* ##################### START BLOG ############# */
+/* ##################### START BLOG ############# */
+/* ##################### START BLOG ############# */
+/* ##################### START BLOG ############# */
+/* ##################### START BLOG ############# */
+
+.allarticles {
+  width: 95%;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.firstarticles iframe {
+  text-align: center;
+}
+
+.firstarticles input {
+  background-color: #e6e6e6;
+  border-radius: 3px;
+  border: none;
+  color:#bfbfbc;
+}
+
+.firstarticles input:hover {
+  color: black;
+}
+
+.allarticles h1 {
+  font-size: 22px;
+  color: #444444;
+}
+
+.allarticles p,
+.allarticles h2 {
+  font-size: 10px;
+  color: #777;
+}
+
+
+/* ##################### START PHONE ############# */
+/* ##################### START PHONE ############# */
+/* ##################### START PHONE ############# */
+/* ##################### START PHONE ############# */
+/* ##################### START PHONE ############# */
+/* ##################### START PHONE ############# */
 
 @media screen and (min-width: 280px) and (max-width: 767px) {
 
